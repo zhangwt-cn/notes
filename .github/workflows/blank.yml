@@ -22,7 +22,8 @@ jobs:
       - uses: actions/checkout@v3
 
       # Runs a single command using the runners shell
-      - name: zhangwt-cn/blog-archive@v1
+      - uses: zhangwt-cn/blog-archive@v1
+      - name: sync
         env:
           API_GITHUB_TOKEN: ${{ secrets.API_GITHUB_TOKEN }}
           OWNER: ${{ secrets.OWNER }}

@@ -19,9 +19,12 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: zhangwt-cn/blog-archive@v1
-        env:
-          API_GITHUB_TOKEN: ${{ secrets.API_GITHUB_TOKEN }}
-          OWNER: ${{ secrets.OWNER }}
-          REPO: ${{ secrets.REPO }}
+      - name: sync blog
+        uses: zhangwt-cn/blog-archive@main
+        with:
+          api-github-token: ${{ secrets.API_GITHUB_TOKEN }}
+          repo: ${{ secrets.REPO }}
+          owner: ${{ secrets.OWNER }}
+          git-user-name: zhangwt
+          git-user-email: im.zhangwt@gmail.com
       

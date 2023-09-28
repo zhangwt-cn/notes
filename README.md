@@ -1,5 +1,6 @@
 # Summary
 
+- [自定义 action 让其他项目使用](https://github.com/zhangwt-cn/notes/issues/18) - 2023-09-28 07:26:29
 - [Cloudflare 设置 Origin Rules](https://github.com/zhangwt-cn/notes/issues/16) - 2023-09-19 12:06:49
 - [`Spring Boot` 适配部署 `TongWeb7`](https://github.com/zhangwt-cn/notes/issues/15) - 2023-09-12 08:44:36
 - [/swagger-resources 404](https://github.com/zhangwt-cn/notes/issues/14) - 2023-09-11 09:41:07

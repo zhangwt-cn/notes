@@ -1,5 +1,6 @@
 # Summary
 
+- [解决中文乱码](https://github.com/zhangwt-cn/notes/issues/20) - 2023-10-10 02:50:21
 - [使用 Optional 优化代码](https://github.com/zhangwt-cn/notes/issues/19) - 2023-10-07 06:20:56
 - [自定义 action 让其他项目使用](https://github.com/zhangwt-cn/notes/issues/18) - 2023-09-28 07:26:29
 - [Cloudflare 设置 Origin Rules](https://github.com/zhangwt-cn/notes/issues/16) - 2023-09-19 12:06:49

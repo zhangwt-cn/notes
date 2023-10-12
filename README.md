@@ -1,5 +1,6 @@
 # Summary
 
+- [git 动态设置用户信息](https://github.com/zhangwt-cn/notes/issues/21) - 2023-10-12 10:02:21
 - [解决中文乱码](https://github.com/zhangwt-cn/notes/issues/20) - 2023-10-10 02:50:21
 - [使用 Optional 优化代码](https://github.com/zhangwt-cn/notes/issues/19) - 2023-10-07 06:20:56
 - [自定义 action 让其他项目使用](https://github.com/zhangwt-cn/notes/issues/18) - 2023-09-28 07:26:29

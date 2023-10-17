@@ -1,6 +1,5 @@
 # Summary
 
-- [test](https://github.com/zhangwt-cn/notes/issues/22) - 2023-10-17 13:17:58
 - [git 动态设置用户信息](https://github.com/zhangwt-cn/notes/issues/21) - 2023-10-12 10:02:21
 - [解决中文乱码](https://github.com/zhangwt-cn/notes/issues/20) - 2023-10-10 02:50:21
 - [使用 Optional 优化代码](https://github.com/zhangwt-cn/notes/issues/19) - 2023-10-07 06:20:56

@@ -1,21 +1,24 @@
 {
-  "devDependencies": {
-    "vue-loader": "^15.0.0-rc.2",
-    "vuepress": "^1.9.10"
-  },
   "name": "notes",
-  "description": "",
   "version": "1.0.0",
+  "description": "Blog & Notes",
   "main": "index.js",
-  "dependencies": {
-
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangwt-cn/notes.git"
+  },
   "author": "zhangwt",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangwt-cn/notes/issues"
+  },
+  "homepage": "https://github.com/zhangwt-cn/notes#readme",
+  "devDependencies": {
+    "vuepress": "^1.9.10"
+  }
 }

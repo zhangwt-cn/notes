@@ -1,0 +1,22 @@
+## 安装命令
+`yum install -y nginx`
+## 访问nginx报错
+1. 403 Forbidden
+2. 404 Not Found
+
+在nginx.conf在找到nginx error log查看发现提示`Permission denied`
+```shell
+2023/09/04 18:02:49 [crit] 109854#0: *14 stat() "/home/front-end/admin/" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8096"
+2023/09/04 18:02:49 [crit] 109854#0: *14 stat() "/home/front-end/admin/index.html" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8096"
+``` 
+有两种解决方案
+<img width="380" alt="image" src="https://github.com/zhangwt-cn/notes/assets/52098594/f18b6d34-0606-4b44-b93e-7520e60bac0c">
+1. 将nginx,conf中的`user nginx` 改为 `user root`，增加目录操作权限，但是可能会有风险。
+2. 增加nginx，给予nginx用户操作权限。
+```shell
+groupadd nginx;
+useradd -M nginx -g nginx -s /sbin/nologin;
+# 修改目录权限
+chown -R nginx:nginx /home/front-end/admin/;
+chmod +x /home/front-end/admin/;
+```

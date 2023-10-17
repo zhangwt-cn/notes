@@ -1,0 +1,20 @@
+# 设置原因
+阿里云服务器`80`和`443`无法使用，导致配置好`cloudflare`之后出现`404`，所以使用`Origin Rules`转发到指定端口
+
+# 设置过程
+1. `Rules` > `Origin Rules` 增加规则
+2. 匹配字段选择`hostname`
+3. 匹配规则选择`equals`
+4. 匹配内容内容填入`xx.com`
+5. `Destination Port` 自定义重写
+
+```
+# 设置 Origin Rules 之前
+ https://xx.com -> cloudflare -> 原服务器ip:80或443
+
+# 设置 Origin Rules 之后
+ https://xx.com -> cloudflare -> 原服务器ip:自定义重写端口
+```
+
+> 设置示例
+<img width="1095" alt="image" src="https://github.com/zhangwt-cn/notes/assets/52098594/5d08591b-8bdd-4631-99e2-686d913352d5">

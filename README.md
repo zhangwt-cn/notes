@@ -6,7 +6,7 @@
 - [自定义 action 让其他项目使用](https://github.com/zhangwt-cn/notes/issues/18) - 2023-09-28 07:26:29
 - [Cloudflare 设置 Origin Rules](https://github.com/zhangwt-cn/notes/issues/16) - 2023-09-19 12:06:49
 - [`Spring Boot` 适配部署 `TongWeb7`](https://github.com/zhangwt-cn/notes/issues/15) - 2023-09-12 08:44:36
-- [/swagger-resources 404](https://github.com/zhangwt-cn/notes/issues/14) - 2023-09-11 09:41:07
+- [swagger-resources 404](https://github.com/zhangwt-cn/notes/issues/14) - 2023-09-11 09:41:07
 - [yum 报错，无法使用](https://github.com/zhangwt-cn/notes/issues/13) - 2023-09-06 14:42:47
 - [Linux 安装 python](https://github.com/zhangwt-cn/notes/issues/12) - 2023-09-06 14:19:29
 - [Nginx 配置 WebSocket 代理 ](https://github.com/zhangwt-cn/notes/issues/11) - 2023-09-05 08:12:04

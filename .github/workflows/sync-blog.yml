@@ -24,7 +24,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: sync blog
-        uses: zhangwt-cn/blog-archive@main
+        uses: zhangwt-cn/blog-archive@vuepress-issues
         with:
           api-github-token: ${{ secrets.API_GITHUB_TOKEN }}
           repo: ${{ secrets.REPO }}

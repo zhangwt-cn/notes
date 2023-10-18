@@ -31,6 +31,4 @@ jobs:
           owner: ${{ secrets.OWNER }}
           git-user-name: zhangwt
           git-user-email: im.zhangwt@gmail.com
-          backup-branch: issues-blog
-          backup-path: docs/blog
       

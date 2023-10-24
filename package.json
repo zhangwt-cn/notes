@@ -1,24 +1,22 @@
 {
-  "name": "notes",
-  "version": "1.0.0",
-  "description": "Blog & Notes",
-  "main": "index.js",
+  "name": "issues-blog",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zhangwt-cn/notes.git"
+  "dependencies": {
+    "highlight.js": "^11.9.0",
+    "markdown-it": "^13.0.2",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5"
   },
-  "author": "zhangwt",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/zhangwt-cn/notes/issues"
-  },
-  "homepage": "https://github.com/zhangwt-cn/notes#readme",
   "devDependencies": {
-    "vuepress": "^1.9.10"
+    "@primer/css": "^21.0.9",
+    "@vitejs/plugin-vue": "^4.4.0",
+    "sass": "^1.69.4",
+    "vite": "^4.4.11"
   }
 }

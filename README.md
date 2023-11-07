@@ -1,5 +1,6 @@
 # Summary
 
+- [Rust 跨平台编译](https://github.com/zhangwt-cn/notes/issues/26) - 2023-11-07 04:07:56
 - [vuepress 踩坑](https://github.com/zhangwt-cn/notes/issues/25) - 2023-10-19 01:42:13
 - [git 动态设置用户信息](https://github.com/zhangwt-cn/notes/issues/21) - 2023-10-12 10:02:21
 - [解决中文乱码](https://github.com/zhangwt-cn/notes/issues/20) - 2023-10-10 02:50:21

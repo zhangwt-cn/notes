@@ -1,5 +1,6 @@
 # Summary
 
+- [处理非文件上传时的Multipart请求解析错误](https://github.com/zhangwt-cn/notes/issues/28) - 2023-12-06 12:37:42
 - [Mac Navicat Premium 12 试用时间重置](https://github.com/zhangwt-cn/notes/issues/27) - 2023-11-20 05:39:12
 - [Rust 跨平台编译](https://github.com/zhangwt-cn/notes/issues/26) - 2023-11-07 04:07:56
 - [vuepress 踩坑](https://github.com/zhangwt-cn/notes/issues/25) - 2023-10-19 01:42:13

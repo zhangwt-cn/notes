@@ -1,5 +1,6 @@
 # Summary
 
+- [解决 Error creating bean with name 'defaultValidator' 问题](https://github.com/zhangwt-cn/notes/issues/30) - 2024-03-06 09:45:20
 - [yum 安装 nginx 缺少依赖报错](https://github.com/zhangwt-cn/notes/issues/29) - 2024-02-27 07:48:40
 - [处理非文件上传时的 Multipart 请求解析错误](https://github.com/zhangwt-cn/notes/issues/28) - 2023-12-06 12:37:42
 - [Mac Navicat Premium 12 试用时间重置](https://github.com/zhangwt-cn/notes/issues/27) - 2023-11-20 05:39:12

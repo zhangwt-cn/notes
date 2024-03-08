@@ -1,7 +1,7 @@
 import '../styles/globals.css';
 
 export const metadata = {
-  title: 'On-Demand Incremental Static Regeneration with Next.js',
+  title: 'Note & Blog',
 };
 
 export default function RootLayout({

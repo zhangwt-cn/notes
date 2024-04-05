@@ -1,5 +1,6 @@
 # Summary
 
+- [能写个详细的教程吗](https://github.com/zhangwt-cn/notes/issues/33) - 2024-04-05 10:27:14
 - [部署错误](https://github.com/zhangwt-cn/notes/issues/32) - 2024-04-02 14:18:43
 - [这个如何实现](https://github.com/zhangwt-cn/notes/issues/31) - 2024-04-02 04:30:12
 - [解决 Error creating bean with name 'defaultValidator' 问题](https://github.com/zhangwt-cn/notes/issues/30) - 2024-03-06 09:45:20

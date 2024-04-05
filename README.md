@@ -1,5 +1,6 @@
 # Summary
 
+- [部署能写个详细的教程吗](https://github.com/zhangwt-cn/notes/issues/34) - 2024-04-05 10:28:32
 - [能写个详细的教程吗](https://github.com/zhangwt-cn/notes/issues/33) - 2024-04-05 10:27:14
 - [部署错误](https://github.com/zhangwt-cn/notes/issues/32) - 2024-04-02 14:18:43
 - [这个如何实现](https://github.com/zhangwt-cn/notes/issues/31) - 2024-04-02 04:30:12

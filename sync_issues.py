@@ -106,7 +106,7 @@ def sync_all_issues():
         # 生成front matter
         front_matter = f"""---
 title: "{issue['title']}"
-description: "{issue['body'][:100]}..."  
+description: "{issue['title']}"  
 publishDate: "{issue['created_at'][:10]}"
 tags: {[label['name'] for label in issue['labels']]}
 ---
